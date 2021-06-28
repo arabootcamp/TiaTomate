@@ -1,0 +1,54 @@
+//Variables Color Scheme
+
+// Variables First Color Scheme
+$white: #FFF;
+$snow: #FAFAFA;
+$quick-silver: #A0A0A0;
+
+//Variables Second Color Scheme
+$jelly-bean: #E56353;
+$salmon: #E97F72;
+$pastel-pink: #F0A9A1;
+
+//Variables Third Color Scheme
+$granite-gray: #686963;
+$taupe-gray: #91918D;
+$gray: #BABAb8;
+
+//Varibles Font Sizes
+$xx-large: 100px;
+$x-large: 70px;
+$large: 50px;
+$medium: 18px;
+
+//Variables Font Family
+$raleway: 'Raleway',
+sans-serif;
+
+//Variables Font Weight
+$raleway-xlight: 200;
+$raleway-regular: 400;
+$raleway-bold: 700;
+
+//Font style
+$regular: normal;
+$italic: italic;
+
+//Device variables
+$map-breakpoints: ('device-small': (min-width: 575.98px),
+  'device-medium': (min-width: 767.98px),
+  'device-large': (min-width: 991.98px),
+  'device-xlarge': (min-width: 1199.98px),
+);
+
+///////////////////////
+//Variables Boostrap//
+$primary: $snow;
+$secondary:$jelly-bean;
+$success: $granite-gray;
+//line-77 - redefinecolor 
+//$dark:$eerie-bolack;
+//line-452,fs
+//line-992
+//$navbar-dark-hover-color:$ruddy-pink;
+//$navbar-dark-active-color:$fuzzy-wuzzy;

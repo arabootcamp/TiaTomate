@@ -1,0 +1,12 @@
+.section-about-us {
+text-align: center;
+
+  &__title {
+    width: 100%;
+    height: 200px;
+
+    @include response-to('device-medium') {
+      height: 250px;
+    }
+  }
+}

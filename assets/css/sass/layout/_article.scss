@@ -1,0 +1,50 @@
+.article {
+  padding: 30px 0;
+  text-align: center;
+
+  &__img {
+    width: 90vw;
+    height: 39vw;
+    object-fit: cover;
+    object-position: center;
+
+    @include response-to('device-medium') {
+      width: 80vw;
+      height: 35vw;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &--about-us {
+      width: 70vw;
+      height: 70vw;
+
+      @include response-to('device-small') {
+        width: 45vw;
+        height: 45vw;
+      }
+
+      @include response-to('device-medium') {
+        width: 30vw;
+        height: 30vw;
+      }
+    }
+  }
+
+  &__container-text {
+    width: 90%;
+    padding-top: 20px;
+    margin: 0 5% 0 5%;
+
+    @include response-to('device-medium') {
+      width: 50%;
+      padding-top: 20px;
+      margin: 0 25% 0 25%;
+    }
+  }
+
+  &__p {
+    text-align: justify;
+  }
+
+}

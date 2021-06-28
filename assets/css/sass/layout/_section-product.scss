@@ -1,0 +1,12 @@
+.section-product {
+  margin-top: 60px;
+
+  @include response-to('device-medium') {
+    margin-top: 83px;
+  }
+
+  &__title {
+    width: 100%;
+    height: auto;
+  }
+}

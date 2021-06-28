@@ -1,0 +1,47 @@
+body {
+  font-family: $raleway;
+  font-size: $medium;
+}
+
+h1 {
+  font-size: $large;
+
+  @include response-to('device-medium') {
+    font-size: $xx-large;
+  }
+}
+
+h2 {
+  font-size: $large;
+  font-weight: $raleway-bold;
+
+  @include response-to('device-medium') {
+    font-size: $xx-large;
+  }
+}
+
+h3 {
+  font-size: $large;
+  font-weight: $raleway-bold;
+
+  @include response-to('device-medium') {
+    font-size: $x-large;
+  }
+}
+
+h4 {
+  font-size: $medium;
+  font-weight: $raleway-bold;
+
+  @include response-to('device-medium') {
+    font-size: $large;
+  }
+}
+
+p {
+  font-size: $medium;
+}
+
+.button {
+  font-size: $medium;
+}
